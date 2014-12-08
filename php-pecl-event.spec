@@ -23,7 +23,7 @@
 
 Summary:       Provides interface to libevent library
 Name:          php-pecl-%{pecl_name}
-Version:       1.10.3
+Version:       1.11.1
 Release:       1%{?dist}
 License:       PHP
 Group:         Development/Languages
@@ -206,6 +206,9 @@ fi
 
 
 %changelog
+* Mon Dec 08 2014 Alice Wonder <rpmbuild@domblogger.net> - 1.11.1-1
+- Update to 1.11.1
+
 * Mon Aug 11 2014 Remi Collet <remi@fedoraproject.org> - 1.10.3-1
 - Update to 1.10.3 (no change)
 
