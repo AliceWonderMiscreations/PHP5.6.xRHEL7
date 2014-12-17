@@ -1558,13 +1558,13 @@ exit 0
 * Thu Nov 13 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.3-1
 - Update to 5.6.3
 
-* Fri Oct 17 2014 Alice Wonder <alicewonder@shastaherps.org> - 5.6.2-1
+* Fri Oct 17 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.2-1
 - Update to 5.6.2
 
-* Sun Oct 05 2014 Alice Wonder <alicewonder@shastaherps.org> - 5.6.1-0
+* Sun Oct 05 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.1-0
 - Update to 5.6.1
 
-* Thu Sep 18 2014 Alice Wonder <alicewonder@shastaherps.org> 5.6.0-0
+* Thu Sep 18 2014 Alice Wonder <rpmbuild@domblogger.net> 5.6.0-0
 - Update to php 5.6.0 and build for RHEL/CentOS 7
 
 * Thu Aug 21 2014 Remi Collet <rcollet@redhat.com> 5.5.16-1

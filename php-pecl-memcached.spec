@@ -1,4 +1,3 @@
-
 %{!?__pecl:     %{expand: %%global __pecl     %{_bindir}/pecl}}
 
 %global pecl_name memcached
@@ -188,7 +187,7 @@ ln -s %{php_ztsextdir}/igbinary.so modules/
 
 
 %changelog
-* Sat Sep 20 2014 Alice Wonder <alicewonder@shastaherps.org> - 2.2.0-1
+* Sat Sep 20 2014 Alice Wonder <rpmbuild@domblogger.net> - 2.2.0-1
 - Update to 2.2.0 and build for RHEL/CentOS 7
 
 * Sun Aug 04 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.1.0-8

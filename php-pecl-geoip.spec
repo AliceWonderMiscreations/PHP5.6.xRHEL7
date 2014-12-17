@@ -118,7 +118,7 @@ fi
 %{pecl_xmldir}/%{name}.xml
 
 %changelog
-* Sat Sep 20 2014 Alice Wonder <alicewonder@shastaherps.org> - 1.1.0-0.beta
+* Sat Sep 20 2014 Alice Wonder <rpmbuild@domblogger.net> - 1.1.0-0.beta
 - update version, build against php-5.6.0
 
 * Fri Mar 22 2013 Remi Collet <rcollet@redhat.com> - 1.0.8-5
