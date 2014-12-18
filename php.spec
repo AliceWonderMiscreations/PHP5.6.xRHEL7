@@ -68,8 +68,8 @@
 
 Summary: PHP scripting language for creating dynamic web sites
 Name: php
-Version: 5.6.3
-Release: 1%{?dist}.2
+Version: 5.6.4
+Release: 1%{?dist}
 # All files licensed under PHP version 3.01, except
 # Zend is licensed under Zend
 # TSRM is licensed under BSD
@@ -1548,6 +1548,9 @@ exit 0
 
 
 %changelog
+* Thu Dec 18 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.4-1
+- Update to 5.6.4
+
 * Wed Dec 17 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.3-1.2
 - Remove strip.sh from sources as we aren't using it
 

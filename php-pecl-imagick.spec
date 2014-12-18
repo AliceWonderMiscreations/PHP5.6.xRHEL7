@@ -8,7 +8,7 @@
 Summary:		Provides a wrapper to the ImageMagick library
 Name:		php-pecl-%peclName
 Version:		3.2.0
-Release:		0.2.%{prever}%{?dist}
+Release:		0.3.%{prever}%{?dist}
 License:		PHP
 Group:		Development/Libraries
 Source0:		http://pecl.php.net/get/%peclName-%{version}%{?prever}.tgz
@@ -107,6 +107,9 @@ fi
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/php.d/%peclName.ini
 
 %changelog
+* Thu Dec 18 2014 Alice Wonder <rpmbuild@domblogger.net> - 3.2.0-0.3.RC1
+- Build against newer ImageMagick version
+
 * Wed Oct 22 2014 Alice Wonder <rpmbuild@domblogger.net> - 3.2.0-0.2.RC1
 - Build against ImageMagick w/ WebP support
 
