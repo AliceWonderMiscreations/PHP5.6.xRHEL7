@@ -261,7 +261,7 @@ fi
 * Thu Nov 13 2014 Alice Wonder <rpmbuild@domblogger.net> - 4.0.7-1
 - Update to 4.0.7 (beta)
 
-* Thu Sep 18 2014 Alice Wonder <alicewonder@shastaherps.org> - 4.0.6-1
+* Thu Sep 18 2014 Alice Wonder <rpmbuild@domblogger.net> - 4.0.6-1
 - Update to 4.0.6 (beta)
 
 * Sat Mar 01 2014 Remi Collet <remi@fedoraproject.org> - 4.0.4-1

@@ -1,5 +1,5 @@
-%global VER 6.8.9
-%global Patchlevel 8
+%global VER 6.9.0
+%global Patchlevel 0
 
 Name:		ImageMagick
 Version:		%{VER}.%{Patchlevel}
@@ -289,7 +289,10 @@ rm -rf %{buildroot}
 %doc PerlMagick/demo/ PerlMagick/Changelog PerlMagick/README.txt
 
 %changelog
-* Wed Oct 22 2014 Alice Wonder <alicewonder@shastaherps.org> - 6.8.9.8-1
+* Mon Dec 15 2014 Alice Wonder <rpmbuild@domblogger.net> - 6.9.0.0-1
+- Update version
+
+* Wed Oct 22 2014 Alice Wonder <rpmbuild@domblogger.net> - 6.8.9.8-1
 - Update version
 
 * Tue Apr 01 2014 Benjamin Tissoires <benjamin.tissoires@redhat.com> 6.7.8.9-10

@@ -68,8 +68,8 @@
 
 Summary: PHP scripting language for creating dynamic web sites
 Name: php
-Version: 5.6.3
-Release: 1%{?dist}.1
+Version: 5.6.4
+Release: 1%{?dist}
 # All files licensed under PHP version 3.01, except
 # Zend is licensed under Zend
 # TSRM is licensed under BSD
@@ -77,9 +77,6 @@ License: PHP and Zend and BSD
 Group: Development/Languages
 URL: http://www.php.net/
 
-# Need to download official tarball and strip non-free stuff
-# wget http://www.php.net/distributions/php-%{version}%{?rcver}.tar.xz
-# ./strip.sh %{version}
 Source0: php-%{version}.tar.xz
 Source1: php.conf
 Source2: php.ini
@@ -91,7 +88,6 @@ Source7: php-fpm.logrotate
 Source8: php-fpm.sysconfig
 Source9: php.modconf
 Source10: php.ztsmodconf
-Source11: strip.sh
 # Configuration files for some extensions
 Source50: opcache.ini
 Source51: opcache-default.blacklist
@@ -1552,19 +1548,25 @@ exit 0
 
 
 %changelog
+* Thu Dec 18 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.4-1
+- Update to 5.6.4
+
+* Wed Dec 17 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.3-1.2
+- Remove strip.sh from sources as we aren't using it
+
 * Fri Nov 21 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.3-1.1
 - Rebuild against new libxml2
 
 * Thu Nov 13 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.3-1
 - Update to 5.6.3
 
-* Fri Oct 17 2014 Alice Wonder <alicewonder@shastaherps.org> - 5.6.2-1
+* Fri Oct 17 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.2-1
 - Update to 5.6.2
 
-* Sun Oct 05 2014 Alice Wonder <alicewonder@shastaherps.org> - 5.6.1-0
+* Sun Oct 05 2014 Alice Wonder <rpmbuild@domblogger.net> - 5.6.1-0
 - Update to 5.6.1
 
-* Thu Sep 18 2014 Alice Wonder <alicewonder@shastaherps.org> 5.6.0-0
+* Thu Sep 18 2014 Alice Wonder <rpmbuild@domblogger.net> 5.6.0-0
 - Update to php 5.6.0 and build for RHEL/CentOS 7
 
 * Thu Aug 21 2014 Remi Collet <rcollet@redhat.com> 5.5.16-1
