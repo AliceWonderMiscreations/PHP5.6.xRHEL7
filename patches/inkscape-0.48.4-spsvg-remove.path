@@ -1,0 +1,11 @@
+diff -up inkscape-0.48.4/share/extensions/Makefile.am.spsvg inkscape-0.48.4/share/extensions/Makefile.am
+--- inkscape-0.48.4/share/extensions/Makefile.am.spsvg	2014-02-26 17:56:45.994187644 +0100
++++ inkscape-0.48.4/share/extensions/Makefile.am	2014-02-26 17:56:51.834186672 +0100
+@@ -124,7 +124,6 @@ extensions = \
+ 	simpletransform.py \
+ 	sk1_output.py \
+ 	sk2svg.sh \
+-	SpSVG.pm \
+ 	spirograph.py\
+ 	split.py \
+ 	straightseg.py \
