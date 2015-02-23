@@ -68,7 +68,7 @@
 
 Summary: PHP scripting language for creating dynamic web sites
 Name: php
-Version: 5.6.5
+Version: 5.6.6
 Release: 1%{?dist}
 # All files licensed under PHP version 3.01, except
 # Zend is licensed under Zend
@@ -1548,6 +1548,9 @@ exit 0
 
 
 %changelog
+* Sun Feb 22 2015 Alice Wonder <rpmbuild@domblogger.net> - 5.6.6-1
+- Update to 5.6.6
+
 * Fri Jan 23 2015 Alice Wonder <rpmbuild@domblogger.net> - 5.6.5-1
 - Update to 5.6.5
 
