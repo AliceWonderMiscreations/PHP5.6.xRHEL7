@@ -104,7 +104,7 @@ Patch21: php-5.4.7-odbctimer.patch
 
 # Functional changes
 Patch40: php-5.4.0-dlopen.patch
-Patch42: php-5.3.1-systzdata-v10.patch
+#Patch42: php-5.3.1-systzdata-v10.patch
 # See http://bugs.php.net/53436
 Patch43: php-5.4.0-phpize.patch
 # Use system libzip instead of bundled one
@@ -715,7 +715,7 @@ support for using the enchant library to PHP.
 %patch21 -p1 -b .odbctimer
 
 %patch40 -p1 -b .dlopen
-%patch42 -p1 -b .systzdata
+#%%patch42 -p1 -b .systzdata
 %patch43 -p1 -b .headers
 ###%if %{with_libzip}
 ###%patch44 -p1 -b .systzip
@@ -1550,6 +1550,7 @@ exit 0
 %changelog
 * Fri May 15 2015 Alice Wonder <rpmbuild@domblogger.net> - 5.6.9-1
 - Update to 5.6.9
+- Disable patch 42
 
 * Sat Apr 18 2015 Alice Wonder <rpmbuild@domblogger.net> - 5.6.8-1
 - Update to 5.6.8
