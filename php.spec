@@ -3,7 +3,7 @@
 %global zendver     20131226
 %global pdover      20080721
 # Extension version
-%global opcachever  7.0.4-dev
+%global opcachever  7.0.6-dev
 
 # Adds -z now to the linker flags
 %global _hardened_build 1
@@ -1549,6 +1549,7 @@ exit 0
 
 %changelog
 * Sun Jun 14 2015 Alice Wonder <rpmbuild@domblogger.net> - 5.6.10-1
+- Update opcache version def to 7.0.6-dev
 - Update to 5.6.10
 
 * Fri May 15 2015 Alice Wonder <rpmbuild@domblogger.net> - 5.6.9-1
